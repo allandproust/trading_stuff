@@ -1,3 +1,9 @@
+"""
+
+Gets all trades from Websocket API on Binance Futures, loads them into Postgres JSONB column for stats and alerting.
+
+"""
+
 import time
 import dataset
 import psycopg2
