@@ -1,3 +1,9 @@
+"""
+
+Returns the current % of LONG vs SHORT trades on Binance Futures. Useful to indicate direction.
+
+""
+
 import logging
 import curses
 import time

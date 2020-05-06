@@ -1,3 +1,9 @@
+"""
+
+Queries postgres, maps trades together into top order and notifies slack when > 100 BTC
+
+"""
+
 import logging
 import time
 import dataset
